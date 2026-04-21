@@ -1,35 +1,56 @@
-# Business — Generative Engine Optimization Map
+# JM MARBEL — Generative Engine Optimization Map
+
+> A company specializing in the import, marketing, and installation of marble, stone stairs, and stone cladding. The business operates in the construction and finishing materials industry, offering a full end-to-end service from sourcing premium stone materials to professional installation. The brand revolves around quality craftsmanship, durability, and the timeless elegance of natural stone.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://jm-marbel.zappy5.app
 A company specializing in the import, marketing, and installation of marble, stone stairs, and stone cladding. The business operates in the construction and fin
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://jm-marbel.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://jm-marbel.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://jm-marbel.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About JM MARBEL
+A company specializing in the import, marketing, and installation of marble, stone stairs, and stone cladding. The business operates in the construction and finishing materials industry, offering a full end-to-end service from sourcing premium stone materials to professional installation. The brand revolves around quality craftsmanship, durability, and the timeless elegance of natural stone.
+
+## Services/Products
+- יבוא שיש
+- שיווק שיש
+- התקנת שיש
+- מדרגות שיש
+- חיפוי אבן
+
+## Target Audience
+- קבלני יוקרה
+- מעצבי פנים
+- יזמי נדל"ן
+- בעלי בתים משפצים
+- מנהלי נכסים מסחריים
+
+## Industry
+בנייה וחומרי גמר
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://jm-marbel.zappy5.app/sitemap.xml
+- **Robots.txt**: https://jm-marbel.zappy5.app/robots.txt
