@@ -333,34 +333,32 @@
 </head>
 <body>
 
-  <nav class="navbar" dir="rtl">
-  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <nav class="navbar" dir="rtl" style="background-color: transparent !important; box-shadow: none;">
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu" data-element-type="button" data-element-id="btn-1776777512954-vgqc2t7n1" data-native-element="true" >
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="width: 24px !important; height: 24px !important; display: block !important;">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none !important; width: 24px !important; height: 24px !important;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="0505537330" aria-label="Call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0505537330" aria-label="Call" data-element-type="button" data-element-id="btn-1776777512954-5zf99pfee" data-native-element="true" >
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link">
-        <img src="/assets/mj-marble-logo.webp" alt="MJ Marble" class="logo">
+      <a href="/" class="logo-link" >
+        <img src="/assets/mj-marble-logo.webp" alt="MJ Marble" class="logo" data-image-type="logo" >
       </a>
-    </div><ul class="nav-menu" id="navMenu"><li><a href="#services">שירותים</a></li><li><a href="#benefits">יתרונות</a></li><li><a href="#showcase">גלריה</a></li><li><a href="#testimonials">המלצות</a></li><li><a href="#stats">נתונים</a></li></ul></div>
+    </div><ul class="nav-menu" id="navMenu"><li><a href="#services" >שירותים</a></li><li><a href="#benefits" >יתרונות</a></li><li><a href="#showcase" >גלריה</a></li><li><a href="#testimonials" >המלצות</a></li><li><a href="#stats" >נתונים</a></li></ul></div>
 
     
 
-    <div class="nav-cta-container">
-      <a href="#contact" class="nav-cta-btn">צור קשר</a>
-    </div>
+    <div class="nav-cta-container"><li class="nav-cta-item"><a href="#contact" class="nav-cta-btn">צור קשר</a></li></div>
   </div>
 </nav>
 <script>
@@ -796,7 +794,7 @@
     <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
   <!-- Background Image Layer -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Bright daylight architectural photography of a luxurious white marble staircase in an upscale Israeli residential interior. Wide stone steps with precise stone cladding on risers, polished marble surfaces catching natural light from large windows. Clean, premium, architectural photography style with warm natural tones. High-end construction finishing materials showcase." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="מדרגות שיש יוקרתיות עם חיפוי אבן בבית פרטי">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Bright daylight architectural photography of a luxurious white marble staircase in an upscale Israeli residential interior. Wide stone steps with precise stone cladding on risers, polished marble surfaces catching natural light from large windows. Clean, premium, architectural photography style with warm natural tones. High-end construction finishing materials showcase." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="מדרגות שיש יוקרתיות עם חיפוי אבן בבית פרטי" data-hero-background="true" data-element-type="image" data-element-id="img-1776777685117-gr5qe7quc">
   </div>
 
   <!-- Scrim Overlay -->
@@ -806,9 +804,9 @@
   <div class="index-hero-container">
     <div class="index-hero-card">
       <!-- Label -->
-      <span class="index-hero-label">יבוא · שיווק · התקנה</span>
+      <p class="zappy-editable"><span class="index-hero-label">יבוא · שיווק · התקנה</span>
 
-      <!-- H1 -->
+      </p><!-- H1 -->
       <h1 class="index-hero-h1">שיש, מדרגות אבן<br>וחיפוי — מהמקור ועד ההתקנה</h1>
 
       <!-- Divider rule -->
@@ -822,8 +820,8 @@
 
       <!-- CTAs -->
       <div class="index-hero-ctas">
-        <a href="#contact" class="index-hero-btn-primary">בקשת הצעת מחיר</a>
-        <a href="#gallery" class="index-hero-btn-secondary">צפייה בעבודות</a>
+        <a href="https://wa.me/message/BNJGY2YPPIIXI1" class="index-hero-btn-primary btn btn-primary" data-element-type="button" data-element-id="btn-1776777685114-dhtswb71j" data-native-element="true" style="outline: none; border-color: rgb(201, 166, 91) !important; color: rgb(255, 255, 255) !important; background-color: rgb(201, 166, 91) !important; background-image: none !important;" target="_blank" rel="noopener noreferrer">בקשת הצעת מחיר</a>
+        <a href="#gallery" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1776777685114-5gcwb6caw" data-native-element="true">צפייה בעבודות</a>
       </div>
     </div>
   </div>
