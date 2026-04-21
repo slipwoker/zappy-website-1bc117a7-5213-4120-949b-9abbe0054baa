@@ -1,6 +1,4 @@
-# JM MARBEL — Generative Engine Optimization Map
-
-> A company specializing in the import, marketing, and installation of marble, stone stairs, and stone cladding. The business operates in the construction and finishing materials industry, offering a full end-to-end service from sourcing premium stone materials to professional installation. The brand revolves around quality craftsmanship, durability, and the timeless elegance of natural stone.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -28,26 +26,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About JM MARBEL
-A company specializing in the import, marketing, and installation of marble, stone stairs, and stone cladding. The business operates in the construction and finishing materials industry, offering a full end-to-end service from sourcing premium stone materials to professional installation. The brand revolves around quality craftsmanship, durability, and the timeless elegance of natural stone.
-
-## Services/Products
-- יבוא שיש
-- שיווק שיש
-- התקנת שיש
-- מדרגות שיש
-- חיפוי אבן
-
-## Target Audience
-- קבלני יוקרה
-- מעצבי פנים
-- יזמי נדל"ן
-- בעלי בתים משפצים
-- מנהלי נכסים מסחריים
-
-## Industry
-בנייה וחומרי גמר
-
+## About Business
 ---
 
 # Additional Resources
