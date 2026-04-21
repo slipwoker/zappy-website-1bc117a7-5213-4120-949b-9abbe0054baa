@@ -728,6 +728,75 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+(function () {
+  /* ---- Lightbox setup ---- */
+  const gallery = document.querySelector('.mjm-gallery');
+  if (!gallery) return;
+
+  // Create lightbox DOM
+  const lightbox = document.createElement('div');
+  lightbox.className = 'mjm-lightbox';
+  lightbox.setAttribute('role', 'dialog');
+  lightbox.setAttribute('aria-modal', 'true');
+  lightbox.setAttribute('aria-label', 'תצוגת תמונה מוגדלת');
+
+  lightbox.innerHTML = `
+    <div class="mjm-lightbox__inner">
+      <img class="mjm-lightbox__img" src="" alt="" />
+      <button class="mjm-lightbox__close" aria-label="סגור">&#x2715;</button>
+    </div>
+  `;
+  document.body.appendChild(lightbox);
+
+  const lbImg = lightbox.querySelector('.mjm-lightbox__img');
+  const lbClose = lightbox.querySelector('.mjm-lightbox__close');
+
+  function openLightbox(img) {
+    lbImg.src = img.src;
+    lbImg.alt = img.alt;
+    lightbox.classList.add('mjm-lightbox--open');
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('mjm-lightbox--open');
+    document.body.style.overflow = '';
+  }
+
+  // Click on gallery items
+  gallery.querySelectorAll('.mjm-gallery__item').forEach(function (item) {
+    const img = item.querySelector('.mjm-gallery__img');
+    item.setAttribute('tabindex', '0');
+    item.setAttribute('role', 'button');
+    item.setAttribute('aria-label', img ? img.alt : 'הצג תמונה');
+
+    item.addEventListener('click', function () {
+      if (img) openLightbox(img);
+    });
+
+    item.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        if (img) openLightbox(img);
+      }
+    });
+  });
+
+  // Close handlers
+  lbClose.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
